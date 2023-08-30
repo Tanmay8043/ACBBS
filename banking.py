@@ -62,6 +62,7 @@ def main():
                 accounts[account_number] = SavingsAccount(account_number, account_holder)
             elif account_type == "current":
                 accounts[account_number] = CurrentAccount(account_number, account_holder)
+                print("Account created!")
             else:
                 print("Invalid account type.")
 
